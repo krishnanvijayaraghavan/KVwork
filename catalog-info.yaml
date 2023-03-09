@@ -1,0 +1,62 @@
+# Welcome to Muziris, Crafted at Marks and Spencer by Integration Frameworks.
+# This is a simple YAML file that helps in onboarding your product in the Cloud9 Portal a.k.a MUZIRIS.
+# This is the source file related to onboarding your product to the portal, hence increasing the visibility of your product across M&S.
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+# Name of the component should contain ONLY Alphanumeric Characters and Hyphens. 
+# Underscores and whitespaces NOT ALLOWED in the name field.
+  name: KVwork
+#  title: <Insert Display Name for your product> 
+  description: Define your product here(Required)
+
+  annotations:
+    github.com/project-slug: krishnanvijayaraghavan/KVwork
+# To Display the Documentation asociated to the product provide the URL to the root location of your docs folder
+    backstage.io/techdocs-ref: url:https://github.com/krishnanvijayaraghavan/KVwork
+
+# Integrate your PagerDuty details to the component which showcases the product's health, service directory, escalation policy, and an option to create a low-priority incident. 
+#    pagerduty.com/integration-key: <Insert PagerDuty integration Key here>
+
+# To display SonarCloud's static code analysis result please key-in the project-name as per SonarCloud
+#    sonarqube.org/project-key: <Insert project-name as per SonarCloud>
+
+# To Monitor the newrelic dashboard associated with the product key-in the newrelic account GUID
+#    newrelic.com/dashboard-guid: <Insert GUID for your Newrelic Account>
+
+# Tags can be used to search the product in Muziris. 
+# Tags must contain only alphanumeric characters.
+# Must be in lowercase and hyphenated.
+# Tags should NOT CONTAIN any special characters including underscores, whitespaces.
+
+#  tags:
+#    - <Insert your tag>
+
+# Add any associated links for your product
+  links:
+    - url: https://github.com/krishnanvijayaraghavan/KVwork
+      title: GitHub Repo
+      icon: github
+#   - url: <Any URL>
+#     title: <Display the title>
+#     icon: <use any icon>
+
+spec:
+  type: service # Type can be altered based on the product
+  owner: cloud-devsecops
+# Lifecycle depends on the nature of product.  
+  lifecycle: experimental
+
+# Uncomment below field, if product is dependent on other components
+#  dependsOn:
+#    [
+#      component:componentName1,
+#      component:componentName2,
+#    ]
+
+# To mention the API consumed or provided by the product uncomment the fields mentioned below
+#  consumesApis:
+#    - <NameOfConsumedApi>
+#  providesApis:
+#    - <NameofProvidedApi>
