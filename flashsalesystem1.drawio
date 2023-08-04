@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T05:53:23.166Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="21.6.6" etag="gLnIOCpCUDwiur_BCBOD" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-04T06:00:07.084Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="B68Y6vb7OZKMg34HR6x_" version="21.6.6" type="github">
   <diagram name="Page-1" id="3hO-6nunJgUqtKMJpCA0">
-    <mxGraphModel>
+    <mxGraphModel dx="984" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iFEE3tVtieh1mnQffPye-1" value="&lt;h1&gt;Flash sales System&amp;nbsp;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="10" y="30" width="810" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iFEE3tVtieh1mnQffPye-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iFEE3tVtieh1mnQffPye-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/css-vol-2/24/home-screen-128.png" vertex="1" parent="1">
+          <mxGeometry x="320" y="96" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="iFEE3tVtieh1mnQffPye-4" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet_gateway;fillColor=#F58536;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="260" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iFEE3tVtieh1mnQffPye-5" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.classic_load_balancer;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="420" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="iFEE3tVtieh1mnQffPye-6" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cache_node;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="450" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="iFEE3tVtieh1mnQffPye-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/Primo_Icons/PNG/128x128/database_active.png" vertex="1" parent="1">
+          <mxGeometry x="660" y="280" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="iFEE3tVtieh1mnQffPye-8" value="Line 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=#666666;mainText=" vertex="1" parent="1">
+          <mxGeometry x="650" y="130" width="150" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
